@@ -61,7 +61,7 @@ public class TC06_GuruLoginHooks_StepDefinations
 		} else 
 		{
            Assert.assertTrue(false);
-           System.out.println("TEST FAIL : IMAGE IS DISPLAYED");
+           System.out.println("TEST FAIL : IMAGE IS NOT DISPLAYED");
 		}
 	}
 	
