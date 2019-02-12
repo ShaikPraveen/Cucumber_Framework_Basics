@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47673209600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC06_GuruLoginHooks_StepDefinations.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verfify Login Fuctionality with Hooks",
+        "description": "",
+        "id": "verify-login-functionality-with-cucumber-hooks;verfify-login-fuctionality-with-hooks",
+        "after": [
+          {
+            "result": {
+              "duration": 283188300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TC06_GuruLoginHooks_StepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4052197100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter Registred username and password",
+            "match": {
+              "location": "TC06_GuruLoginHooks_StepDefinations.enter_Registred_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mngr176855",
+                  "sEqAgUm"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5991338700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Login button",
+            "match": {
+              "location": "TC06_GuruLoginHooks_StepDefinations.click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96871700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Login page",
+            "match": {
+              "location": "TC06_GuruLoginHooks_StepDefinations.verify_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Login Functionality with Cucumber Hooks",
+    "description": "",
+    "id": "verify-login-functionality-with-cucumber-hooks",
+    "keyword": "Feature",
+    "uri": "E:/Praveen_Automation/TCS_SELENIUM/Cucumber_Practice/Features/GuruLoginHooks.feature"
+  }
+]
